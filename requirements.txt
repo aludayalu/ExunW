@@ -1,0 +1,6 @@
+Flask==2.2.2
+Flask==2.2.2
+discord==2.2.3
+python-dateutil==2.8.2
+pymongo==4.3.3
+Flask-Limiter==3.3.1
