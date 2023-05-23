@@ -26,7 +26,7 @@ import confetti from 'canvas-confetti';
 import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs"
 import { Chart } from "react-google-charts";
-import * as SendButton from "./sendButton";
+import * as SendButton from "./SendButton";
 import { SendIcon } from "./SendIcon";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json())
