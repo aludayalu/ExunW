@@ -44,7 +44,7 @@ function App({ Component, pageProps: { session, ...pageProps } }) {
   return (
     <>
     <Head>
-        <title>Practice Sudocrypt</title>
+        <title>Sportsgres</title>
         <link rel="icon" type="image/x-icon" href="/logo-blue.png"></link>
     </Head>
     <div style={{backgroundColor:"black"}} className="hidden">
