@@ -46,7 +46,7 @@ export default function Home(props) {
     }
     requestAnimationFrame(raf)
     // "https://api.cricapi.com/v1/matches?apikey=bb402b53-a137-4be7-8a94-ff2b94e59f33&offset=0"
-    var { data, error } = useSWR("http://localhost:3000/api/token", fetcher);if (!data) return loading_page()
+    var { data, error } = useSWR("https://exun-w.vercel.app/api/token", fetcher);if (!data) return loading_page()
     const news=[
         {
             "date":"2012-13","title":"Kolkata Knight Riders","data":"Manvinder Bisla"

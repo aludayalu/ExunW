@@ -52,7 +52,7 @@ export default function Home(props) {
         console.log("closed");
     };
       // "https://api.cricapi.com/v1/matches?apikey=bb402b53-a137-4be7-8a94-ff2b94e59f33&offset=0"
-    var { data, error } = useSWR("http://localhost:3000/api/token", fetcher);if (!data) return loading_page()
+    var { data, error } = useSWR("https://exun-w.vercel.app/api/token", fetcher);if (!data) return loading_page()
     var match=data.matches.result[params.index]
     function get_innings(inner_name,inner_key,match) {
         var pie_data=[["Player","Runs"]]

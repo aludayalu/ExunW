@@ -38,7 +38,7 @@ export default function Home(props) {
     var params = router.query;
     const { data: session } = useSession();
       // "https://api.cricapi.com/v1/matches?apikey=bb402b53-a137-4be7-8a94-ff2b94e59f33&offset=0"
-    var { data, error } = useSWR("http://localhost:3000/api/token", fetcher);if (!data) return loading_page()
+    var { data, error } = useSWR("https://exun-w.vercel.app/api/token", fetcher);if (!data) return loading_page()
     var match=data.matches.result[params.index]
     var last_fetch=[]
     function on_click() {
